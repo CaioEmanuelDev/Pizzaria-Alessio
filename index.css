@@ -1,0 +1,52 @@
+/* Definições globais */
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Váriáveis */
+:root {
+  --color-black: #232323;
+  --color-white: #eaeaea;
+  --color-yellow: #ffa404;
+  --size-01:1rem;
+  --size-02:2rem;
+  --size-03:3rem;
+}
+
+/* Corpo da Página */
+body {
+  text-align: center;
+}
+
+/* Barra de navegação */
+header {
+  background-color: var(--color-black);
+  padding: var(--size-01);
+  color: var(--color-white);
+  border: transparent;
+  position: fixed; /* Fixa o header no topo */
+  top: 0; /* Alinha ao topo da página */
+  width: 100%; /* Faz o header ocupar toda a largura */
+}
+
+/* Barra de navegação > Texto */
+header > a {
+  padding: var(--size-01);
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Herda a cor do elemento pai */
+}
+
+/* Seção Bem-vindo */
+#section-Welcome {
+  position: relative;
+  min-height: 20px;
+}
+
+.div-background {
+  position: absolute;
+}
